@@ -1,2 +1,2 @@
 # Madster6187.github.io
-This website is collection of Thai poetry forms
+This is Patcharapong Jongprasirth Bio
