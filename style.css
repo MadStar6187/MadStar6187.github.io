@@ -1,0 +1,79 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #222;
+  color: #fff;
+}
+header nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #ffcc00;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+h2 {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+/* Project Cards */
+.project-card {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea {
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  padding: 0.8rem;
+  background: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #e6b800;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+  margin-top: 2rem;
+}
