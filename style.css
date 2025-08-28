@@ -48,9 +48,11 @@ h2 {
 }
 
 /* Contact Form */
-form {
+the_contacts {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  text-indent: 50px;
 }
 form input, form textarea {
   margin: 0.5rem 0;
