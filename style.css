@@ -1,84 +1,94 @@
 /* General Styles */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background: #f9f9f9;
-  color: #333;
-}
-
 /* Header */
 header {
-  text-align: center;
-  padding: 2rem;
-  background: #222;
-  color: #fff;
-}
-header nav a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #ffcc00;
-}
-header nav a:hover {
-  text-decoration: underline;
+    text-align: center;
+    padding: 3rem;
+    padding-bottom: 2rem;
+    background: #000000;
+    color: #ffffff;
+    font-family: "TH Sarabun New";
+    font-size: 25px;
 }
 
-/* Sections */
-section {
-  padding: 3rem 2rem;
-  max-width: 800px;
-  margin: auto;
+
+
+.divcontact{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
 }
-h2 {
-  margin-bottom: 1rem;
-  color: #222;
+.yt{
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.github{
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Project Cards */
-.project-card {
-  background: #fff;
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+
+body {
+    font-family: "TH Sarabun New";
+    font-size: 28px;
+    line-height: 1.2;
+    background: rgb(255, 255, 255);
+    color: #000000;
 }
 
-/* Contact Form */
-the_contacts {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  text-indent: 50px;
+.inbody{
+    background: #ffffff;
+    padding-left: 80px;
+    max-width: 700px;
 }
-copyright{
-   font-size: 32px;
+
+.about{
+    max-width: 800px;
+    margin: auto;
 }
-form input, form textarea {
-  margin: 0.5rem 0;
-  padding: 0.8rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.personalskill{
+    padding-top: 3rem;
+    max-width: 800px;
+    margin: auto;
 }
-form button {
-  padding: 0.8rem;
-  background: #ffcc00;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+
+h2 { /*the is every section word*/
+    color: black;
+    font-family: "TH Sarabun New";
 }
-form button:hover {
-  background: #e6b800;
+
+h3{
+    color: #000000;
+    padding-left: 40px;
+    font-family: "TH Sarabun New";
 }
+
+
 
 /* Footer */
 footer {
-  text-align: center;
-  padding: 1rem;
-  background: #222;
-  color: #fff;
-  margin-top: 2rem;
+    font-family: "TH Sarabun New";
+    font-size: 50;
+    text-align: center;
+    padding: 1rem;
+    background: #000000;
+    color: #fff;
+    margin-top: 10rem;
 }
