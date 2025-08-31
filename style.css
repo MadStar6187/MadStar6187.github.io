@@ -57,6 +57,9 @@ the_contacts {
   text-align: center;
   text-indent: 50px;
 }
+copyright{
+   font-size: 32px;
+}
 form input, form textarea {
   margin: 0.5rem 0;
   padding: 0.8rem;
