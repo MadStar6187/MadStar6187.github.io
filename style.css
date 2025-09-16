@@ -5,8 +5,21 @@
     box-sizing: border-box;
     color: #ccc;
 }
+
+.otherway{
+    background-color: red;
+}
+
 /* Header */
-header {
+header{
+    display: flex;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+
+.verytop {
     text-align: center;
     padding: 3rem;
     padding-bottom: 2rem;
