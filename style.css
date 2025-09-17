@@ -57,6 +57,14 @@ header{
     justify-content: center;
     align-items: center;
     position: relative;
+	padding-right: 75px;
+}
+
+.artstation{
+	max-width: 50px;
+	justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 
