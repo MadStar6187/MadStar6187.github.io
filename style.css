@@ -54,19 +54,17 @@ header{
 }
 .email{
     max-width: 50px;
-	display: flex;
+   	display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-	padding-right: 75px;
+	   padding-right: 75px;
 }
 
 .artstation{
-	max-width: 50px;
-	display: flex;
-	justify-content: center;
+   	max-width: 50px;
+	   display: flex;
+	   justify-content: center;
     align-items: center;
-    position: relative;
 }
 
 
