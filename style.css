@@ -54,6 +54,7 @@ header{
 }
 .email{
     max-width: 50px;
+	display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -62,6 +63,7 @@ header{
 
 .artstation{
 	max-width: 50px;
+	display: flex;
 	justify-content: center;
     align-items: center;
     position: relative;
