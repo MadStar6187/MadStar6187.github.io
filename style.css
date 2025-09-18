@@ -42,21 +42,18 @@ header{
     max-width: 50px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(252, 255, 78);
     padding-right: 75px;
 }
 .github{
     max-width: 50px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(78, 255, 116);
     padding-right: 75px;
 }
 .email{
     max-width: 50px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(53, 27, 196);
     position: relative; /* This is crucial for positioning the popup */
     display: inline-block;
     padding-right: 75px;
@@ -67,7 +64,6 @@ header{
 	display: flex;
 	justify-content: center;
     align-items: center;
-    background-color: red;
 }
 
 
