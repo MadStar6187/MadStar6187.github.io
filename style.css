@@ -15,6 +15,7 @@ header{
     display: flex;
     padding-top: 7px;
     padding-bottom: 7px;
+    background-color: #252525;
 }
 
 
@@ -36,7 +37,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkgreen;
+    background-color: #252525;
 }
 .yt{
     max-width: 50px;
@@ -61,11 +62,18 @@ header{
 
 .artstation{
    	max-width: 50px;
-	display: flex;
+	display: inline-block;
 	justify-content: center;
     align-items: center;
+    padding-right: 67px;
 }
 
+.itchio{
+    max-width: 50px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
 
 /* The popup message */
 .portable-popup-message {
@@ -102,22 +110,43 @@ header{
     opacity: 1;
 }
 
+
+
+.me{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+}
+.me1{
+    padding-right: 1rem;
+}
+.me2{
+    padding-right: 1rem;
+}
+
+
+
+
+
+
 body {
     font-family: "TH Sarabun New";
     font-size: 28px;
     line-height: 1.2;
-    background: #1f1f1f;
+    background: #252525;
     color: #ccc;
 }
 
 .inabout{
-    background: #1f1f1f;
+    background: #252525;
     padding-left: 40px;
     max-width: 700px;
 }
 
 .inbody{
-    background: #1f1f1f;
+    background: #252525;
     padding-left: 80px;
     max-width: 700px;
 }
