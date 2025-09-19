@@ -6,10 +6,6 @@
     color: #ccc;
 }
 
-.otherway{
-    background-color: red;
-}
-
 /* Header */
 header{
     display: flex;
@@ -17,8 +13,6 @@ header{
     padding-bottom: 7px;
     background-color: #252525;
 }
-
-
 
 .verytop {
     text-align: center;
@@ -30,8 +24,6 @@ header{
     font-size: 25px;
 }
 
-
-
 .divcontact{
     padding-top: 1rem;
     display: flex;
@@ -39,41 +31,16 @@ header{
     align-items: center;
     background-color: #252525;
 }
-.yt{
+.yt, .github, .email, .artstation, .itchio {
     max-width: 50px;
     justify-content: center;
     align-items: center;
     padding-right: 75px;
 }
-.github{
-    max-width: 50px;
-    justify-content: center;
-    align-items: center;
-    padding-right: 75px;
-}
+
 .email{
-    max-width: 50px;
-    justify-content: center;
-    align-items: center;
-    position: relative; /* This is crucial for positioning the popup */
+    position: relative;
     display: inline-block;
-    padding-right: 75px;
-}
-
-.artstation{
-   	max-width: 50px;
-	display: inline-block;
-	justify-content: center;
-    align-items: center;
-    padding-right: 75px;
-}
-
-.itchio{
-    max-width: 50px;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-	padding-right: 75px;
 }
 
 /* The popup message */
@@ -111,22 +78,15 @@ header{
     opacity: 1;
 }
 
-
-
 .me{
     padding-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #252525;
 }
-.me1{
+.me1, .me2 {
     padding-right: 1rem;
 }
-.me2{
-    padding-right: 1rem;
-}
-
 
 
 
@@ -163,15 +123,14 @@ body {
 }
 
 
-h2 { /*the is every section word*/
+h2, h3 {
     color: #ccc;
     font-family: "TH Sarabun New";
 }
 
+
 h3{
-    color: #ccc;
     padding-left: 40px;
-    font-family: "TH Sarabun New";
 }
 
 
@@ -187,12 +146,54 @@ footer {
     margin-top: 10rem;
 	display: flex;
 }
-.licensetext {
-	margin: auto;
+
+
+
+/* --- Light Theme --- */
+body.light-theme {
+    background: #f0f0f0;
+    color: #333;
 }
 
-.languages_switch2 {
-	color: red;
+body.light-theme header {
+    background-color: #e9e9e9;
+    border-bottom: 1px solid #ddd;
+}
+
+body.light-theme header a h5 {
+    color: #000000;
+}
+
+body.light-theme .verytop,
+body.light-theme h1 {
+    background: #ffffff;
+    color: #000000;
+}
+
+body.light-theme .divcontact,
+body.light-theme .me,
+body.light-theme .about p,
+body.light-theme .personalskill p {
+    background-color: #f0f0f0;
+}
+
+body.light-theme h2,
+body.light-theme h3,
+body.light-theme p,
+body.light-theme .licensetext {
+    color: #000000;
+}
+
+body.light-theme footer {
+    background: #ffffff;
+    color: #000000;
+}
+/* --- End of Theme Styles --- */
+
+
+
+.licensetext {
+	margin: auto;
 }
 
 .switch {
@@ -299,21 +300,21 @@ input:checked + .slider:before {
 	width: 32px;
 	left: 4px;
 	bottom: 4px;
-	background: white;
+	background: white url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>') center no-repeat;
+    background-size: 60%;
 	-webkit-transition: .4s;
 	transition: .4s;
-	
 	display: flex;
-	justify-content: center; /* Horizontally centers content */
-	align-items: center; 	/* Vertically centers content */
+	justify-content: center;
+	align-items: center;
 }
 
 input:checked + .slidark:before {
-  -webkit-transform: translateX(30px);
-  -ms-transform: translateX(30px);
-  transform: translateX(30px);
-  content: "";
-  background: orange;
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(30px);
+    background: white url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="orange" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>') center no-repeat;
+    background-size: 70%;
 }
 
 input:checked + .slidark {
@@ -326,5 +327,4 @@ input:checked + .slidark {
 
 .slidark.round:before {
   border-radius: 50%;
-  
 }
