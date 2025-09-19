@@ -71,7 +71,7 @@
   
   <!-- Personal Skill -->
 <section class="personalskill">
-  <h2>Personal Skill</h2>
+  <h2>Personal Skills</h2>
       <h3>Programming Languages</h3>
           <p class="inbody">C++</p>
           <p class="inbody">HTML</p>
@@ -99,9 +99,19 @@
   <p>© 2025 Patcharapong Jongprasirth. All Rights Reserved.</p>
 </div>
 
-<label class="darking">
+<label class="darking" id="theme-switcher">
   <input type="checkbox">
   <span class="slidark round"></span>
 </label>
+
+<!-- This script will handle the theme switching -->
+<script>
+  const themeSwitcher = document.getElementById('theme-switcher');
+  
+  themeSwitcher.addEventListener('change', function() {
+    // When the checkbox is changed, it will add or remove the 'light-theme' class from the body
+    document.body.classList.toggle('light-theme');
+  });
+</script>
 
 </footer>
