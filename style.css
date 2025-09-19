@@ -73,6 +73,7 @@ header{
     display: inline-block;
     justify-content: center;
     align-items: center;
+	 padding-right: 75px;
 }
 
 /* The popup message */
