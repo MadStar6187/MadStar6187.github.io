@@ -90,63 +90,53 @@ header{
 }
 
 
+/* Simplified section */
 body {
     font-family: "Sarabun", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 27px;
-    line-height: 1.2;
+    line-height: 1.5;
     background: #252525;
     color: #ccc;
 }
 
-.inabout{
-    font-family: "Sarabun", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background: #252525;
-    padding-left: 40px;
-    padding-right: 40px;
-    line-height: 150%;
+.inabout {
+    padding: 0 40px;
+    line-height: 1.5;
     text-align: justify;
-    /*max-width: 100%;*/
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.inbody{
-    background: #252525;
-    padding-left: 80px;
-    padding-right: 80px;
+.inbody {
+    padding: 0 80px;
     text-align: justify;
+    background: inherit;
 }
 
-.about{
+.about,
+.personalskill {
     padding-top: 3rem;
     max-width: 800px;
-    margin: auto;
-}
-.personalskill{
-    padding-top: 3rem;
-    max-width: 800px;
-    line-height: 150%;
-    margin: auto;
+    margin: 0 auto;
 }
 
-
-h2, h3 {
-    color: #ccc;
-    font-family: "Sarabun", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    
+.personalskill {
+    line-height: 1.5;
 }
 
+h2,
+h3 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+}
 
-h3{
+h3 {
     padding-left: 40px;
 }
-
-
-
 
 /* Footer */
 footer {
